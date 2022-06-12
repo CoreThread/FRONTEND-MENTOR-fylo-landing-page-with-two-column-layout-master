@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+:root{
+        --raleway : 'Raleway', sans-serif;
+        --open : 'Open Sans', sans-serif;
+        /* Primary */
+        --Very_Dark_Blue: hsl(243, 87%, 12%);
+        --Desaturated_Blue: hsl(238, 22%, 44%);
+        /* Accent */
+        --Bright_Blue: hsl(224, 93%, 58%);
+        --Moderate_Cyan: hsl(170, 45%, 43%);
+        /* Neutral */
+        --Light_Grayish_Blue: hsl(240, 75%, 98%);
+        --Light_Gray: hsl(0, 0%, 75%);
+}
+/* body{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+} */
+.qqq{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+        /* align-content: space-between; */
+}
+.navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 25px;       
+}
+.navBar img{
+        height: 1.5rem;
+        margin-left: 30px;
+}
+.navLinks{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-between;
+}
+.navLinks a{
+        text-decoration: none;
+        color: var(--Desaturated_Blue);
+        font-family: var(--raleway);
+        font-weight: 400;
+        font-size: 0.75rem;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.getStarted{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+        margin-bottom: 60px;
+}
+.getStarted img{
+        width: 85%;
+}
+.email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+        text-align: center;
+        padding: 25px;
+}
+.email h1{
+        font-size: 1.45rem;
+        font-family: var(--raleway);
+        font-weight: 700;
+        line-height: 33px;
+        margin-bottom: 25px;
+        color: var(--Very_Dark_Blue);
+}
+.email p{
+        color: var(--Very_Dark_Blue);
+        line-height: 20px;
+        font-size: 0.9rem;
+        font-family: var(--open);
+        font-weight: 400;
+        margin-bottom: 25px;
+}
+.jjj{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+}
+.email input{
+        width: 86%;
+        height: 30px;
+        padding-left: 30px;
+        color: var(--Light_Gray);
+        font-family: var(--open);
+        margin-bottom: 15px;
+}
+.email button{
+        width: 100%;
+        background-color: var(--Bright_Blue);
+        color: var(--Light_Grayish_Blue);
+        height: 40px;
+        font-family: var(--raleway);
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        border: 0;
+}
+.email button:hover{
+        background-color: #6b9bff;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.productive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+        text-align: center;
+        margin-bottom: 60px;
+        background-color: #f8f8fe;
+        /* width: 100%; */
+}
+.productiveTxt{
+        margin-bottom: 30px;
+}
+.productiveImg{
+        width: 85%;
+}
+.otherHalf{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+        text-align: center;
+}
+.productiveTxt h2{
+        font-size: 1rem;
+        font-family: var(--raleway);
+        font-weight: 700;
+        color: var(--Very_Dark_Blue);
+        margin-bottom: 25px;
+}
+.productiveTxt p{
+        color: var(--Desaturated_Blue);
+        line-height: 20px;
+        font-size: 0.9rem;
+        font-family: var(--open);
+        font-weight: 400;
+        margin-bottom: 25px;
+        text-align: left;
+        margin-left: 25px;
+}
+.works a{
+        color: var(--Moderate_Cyan);
+        font-family: var(--open);
+        font-weight: 400;
+        text-decoration: none;
+        border-bottom: 2px solid;
+        padding-bottom: 5px;
+}
+.works a:hover{
+        color: #2bf7d1;
+}
+.box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        padding: 35px;
+        width: 66%;
+        margin-right: -20px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+}
+#quotes{
+        padding-right: 219px;
+}
+#boxPPP{
+        color: var(--Desaturated_Blue);
+        line-height: 20px;
+        font-size: 0.7rem;
+        font-family: var(--open);
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-align: left;
+}
+.name{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width:100%;
+}
+.name img{
+        width: 1.55rem;
+        border-radius: 2rem;
+}
+.nameTxt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px;
+}
+.nameTxt h3{
+        font-size: 0.8rem;
+        width:100%;
+        text-align: left;
+        color: var(--Very_Dark_Blue);
+        font-family: var(--raleway);
+        font-weight: 700;
+        line-height: 15px;
+}
+.nameTxt p{
+        font-size: 0.6rem;
+        width:100%;
+        text-align: left;
+        color: var(--Desaturated_Blue);
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.last{
+        background-color: var(--Desaturated_Blue);
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+}
+.early{
+        margin-bottom: 25px;
+}
+.last h2{
+        text-align: center;
+        font-size: 1.25rem;
+        color: var(--Light_Grayish_Blue);
+        font-family: var(--raleway);
+        font-weight: 700;
+        margin-bottom: 15px;
+}
+.last p{
+        font-size: 0.9rem;
+        width:100%;
+        text-align: left;
+        color: var(--Light_Gray);
+        font-family: var(--open);text-align: center;
+        line-height: 22px;
+}
+.lastEmail{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+        margin-bottom: 30px;
+}
+.lastEmail input{
+        width: 86%;
+        height: 30px;
+        padding-left: 30px;
+        color: var(--Light_Gray);
+        font-family: var(--open);
+        margin-bottom: 15px;
+}
+.lastEmail button{
+        width: 100%;
+        background-color: var(--Bright_Blue);
+        color: var(--Light_Grayish_Blue);
+        height: 40px;
+        font-family: var(--raleway);
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        border: 0;
+}
+.lastEmail button:hover{
+        background-color: #6b9bff;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.foot{
+        background: #07043b;
+        width: 100%;
+        color: var(--Light_Grayish_Blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+}
+#iconFFF{ 
+        margin-top: 50px;
+        display: flex;
+        margin-left: -138px;
+        filter: invert(100%) sepia(0%) saturate(5716%) hue-rotate(19deg) brightness(110%) contrast(103%);
+}
+.contact{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-between;
+
+}
+.contactLeft{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 13px;
+}
+.xxx{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        font-family: var(--open);
+}
+.xxx img{
+        margin-right: 30px;
+}
+.contactMiddle{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 13px;
+}
+.lastLink1, .lastLink2{
+        margin-bottom: 35px;
+}
+.lastLink1 a, .lastLink2 a{
+        text-decoration: none;
+        font-family: var(--open);
+        color: var(--Light_Grayish_Blue);       
+}
+.lastLink1 a:hover, .lastLink2 a:hover{
+        color : #6d9dff
+}
+.contactRight{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* align-items: flex-start; */
+        margin-bottom: 50px;
+}
+.contactRight img{
+        width: 1rem;
+        margin-right: 30px;
+        filter: invert(100%) sepia(0%) saturate(5716%) hue-rotate(19deg) brightness(110%) contrast(103%);
+}
+#fb{
+        height: 19px;
+}
+.contactRight img:hover{
+        filter: invert(51%) sepia(83%) saturate(733%) hue-rotate(197deg) brightness(102%) contrast(101%);
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media (min-width : 1025px){
+        .navBar{
+                padding-top: 60px;
+        }
+        .navBar img{
+                height: 3.5rem;
+                margin-left: 30px;
+        }
+        .navLinks{
+                width: 300px;
+                margin-right: 50px;
+        }
+        .navLinks a{
+                font-size: 1.6rem;
+        }
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+        .getStarted{
+                flex-direction: row-reverse;
+        }
+        .email{
+                text-align: left;
+                padding: 90px;
+        }
+        .email h1{
+                font-size: 2.5rem;
+                line-height: 60px;
+        }
+        .email p{
+                font-size: 1.6rem;
+                line-height: 30px;
+        }
+        .email .jjj{
+                flex-direction: row;
+        }
+        .email input{
+                width: 65%;
+                height: 30px;
+                padding-left: 0;
+                color: var(--Light_Gray);
+                font-family: var(--open);
+                margin-bottom: 0;
+                border: 2px solid;
+                margin-right: 30px;
+                margin-left: -77px;
+        }
+        .email button{
+                width: 35%;
+                background-color: var(--Bright_Blue);
+                color: var(--Light_Grayish_Blue);
+                height: 40px;
+                font-family: var(--raleway);
+                font-weight: 700;
+                letter-spacing: 1.2px;
+                border: 0;
+        }
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+        .productive{
+                flex-direction: row-reverse;
+        }
+        .productiveImg{
+                width: 40%;
+        }
+        .otherHalf{
+                width: 60%;
+                padding: 90px;
+        }
+        .productiveTxt{
+                text-align: left;
+        }
+        .productiveTxt h2{
+                font-size: 2rem;
+        } 
+        .productiveTxt p{
+                margin-left: 0;
+                width: 70%;
+                font-size: 1.2rem;
+        }
+        .box{
+                margin-right: auto;
+                width: 45%;
+        }
+        #quotes {
+                padding-right: 325px;
+        }
+        #boxPPP{
+                font-size: 1.0rem;
+                line-height: 26px;
+        }
+        .name img{
+                width: 2rem;
+        }
+        .nameTxt {
+                margin: 15px;
+        }
+        .nameTxt h3 {
+                font-size: 0.9rem;
+                margin-bottom: 6px;
+        }
+        .nameTxt p {
+                font-size: 0.7rem;
+        }
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+        .last{
+                width: 100%;
+                flex-direction: row;
+                padding: 80px;
+        }
+        .early{
+                width: 50%;
+        }
+        .early h2, .early p{
+                text-align: left;
+                margin-left: 80px;
+        }
+        .early h2{
+                font-size: 1.9rem;
+                margin-bottom: 40px;
+        }
+        .early p{
+                font-size: 1.2rem;
+                width: 66%;
+        }
+        .lastEmail{
+                width: 50%;
+        }
+        .lastEmail input{
+                padding-left: 0px;
+                width: 75%;
+        }
+        .lastEmail button{
+                width: 25%;
+                margin-right: 365px;
+        }
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+        #iconFFF{
+                margin-top: 160px;
+                margin-left: -1130px;
+        }
+        .contact{
+                flex-direction: row;
+                height: 250px;
+        }
+        .contactMiddle{
+                flex-direction: row;
+        }
+        .lastLink1{
+                margin-right: 50px;
+        }
+        .lastLink2{
+                margin-left: 50px;
+        }
+}
